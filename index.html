@@ -1,12 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conceitos Artistícos</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
+
 <body>
-    <h1>iniciando com 1 teste</h1>
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a href="./index.html">
+                <h2 class="logo">Conceitos artisticos interessantes!</h2>
+            </a>
+        </nav>
+
+    </header>
+
+
+
+<!-- Featured articles. Nesta div exponho os assuntos a serem debatidos. -->
+    <section class="featured-articles section section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+
+
+<!--#####################################################################################################################-->
+                <a href="./performance.html" class="article featured-article featured-article-1">
+                    <img src="./assets/images/featured/indicadores-de-performance.jpg" alt="" class="article-image">
+                    <span class="article-category">Performance artística</span>
+
+                    <div class="article-data-container">
+                        <div class="article-data">
+                            <span>19/abril/2022</span>
+                            <span class="article-data-spacer"></span>
+                        </div>
+                        <h3 class="title article-title">Performance artística</h3>
+                    </div>
+                </a>
+<!--#####################################################################################################################-->
+                <a href="./post.html" class="article featured-article featured-article-2">
+                    <img src="./assets/images/featured/featured-2.jpg" alt="" class="article-image">
+                    <span class="article-category">História do Teatro</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>19/abril/2022</span>
+                            <span class="article-data-spacer"></span>
+                        </div>
+                        <h3 class="title article-title">História do Teatro</h3>
+                    </div>
+                </a>
+            </div>
+
+            <div class="sidebar d-grid">
+
+                <h3 class="title featured-content-title">Discussões Propostas</h3>
+<!--#################################################################################################################-->
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">01</span>
+                        <img src="./assets/images/featured/indicadores-de-performance.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                        </div>
+
+                        <h3 class="title article-title">Performance artística</h3>
+
+                    </div>
+                </a>
+<!--#################################################################################################################-->
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">03</span>
+                        <img src="./assets/images/trending/trending_3.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+
+                    </div>
+                </a>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
