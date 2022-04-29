@@ -44,6 +44,8 @@ body{
     background-color: var(--primary-background-color);
     letter-spacing: 1px;
     transition: background-color .25s,color .25s;
+
+    padding-top: 15px;
 }
 
 a{
@@ -112,6 +114,7 @@ body.light-theme{
     left: 0;
     width: 100%;
     z-index: 999;
+    
 }
 
 .navbar{
@@ -119,6 +122,8 @@ body.light-theme{
     align-items: center;
     justify-content: space-between;
     padding-block: 1.5rem;
+    
+    
 }
 
 .logo{
@@ -275,7 +280,8 @@ body.light-theme{
 }
 
 .section-header-offset{
-    margin-top: 7.4rem;
+   margin-top: 25rem;
+  
 }
 
 .featured-articles-container,
